@@ -1,0 +1,33 @@
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fafafa;
+  }
+
+  .square {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+  }
+
+  .red {
+    background: pink;
+    top: 50px;
+    left: 70px;
+     z-index: 1;
+  }
+
+  .blue {
+    background: teal;
+    top: 100px;
+    left: 120px;
+     z-index: 2;
+  }
+
+  .green {
+    background: mediumspringgreen;
+    top: 150px;
+    left: 170px;
+     z-index: 1;
+  }
